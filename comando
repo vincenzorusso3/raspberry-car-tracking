@@ -1,0 +1,6 @@
+        python detect_and_track_in_video.py \
+            --video_path=/home/pi/Desktop/examples/lite/examples/object_detection/raspberry_pi/highway_01.mp4 \
+            --detect_labels=['car','truck'] \
+            --tracker_min_iou=0.2 \
+            --architecture=ssdlite320 \
+            --device=cpu
